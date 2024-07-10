@@ -14,7 +14,7 @@ public class City extends BaseModel {
     private String name;
     private String pinCode;
 
-//    @OneToMany
+//    @OneToMany(mappedBy = "")
 //    private List<Theatre> theatres;
 }
 

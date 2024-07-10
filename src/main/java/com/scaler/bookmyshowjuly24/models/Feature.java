@@ -5,4 +5,5 @@ public enum Feature {
     THREE_D,
     IMAX,
     DOLBY,
+    FOUR_D,
 }

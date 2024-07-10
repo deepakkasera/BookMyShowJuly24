@@ -13,6 +13,7 @@ public class Screen extends BaseModel {
     private String name;
 
     @OneToMany
+    @JoinColumn(name = "seat_id")
     private List<Seat> seats;
 
     @Enumerated(EnumType.ORDINAL)
